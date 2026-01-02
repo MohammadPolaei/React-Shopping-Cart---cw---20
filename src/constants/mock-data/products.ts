@@ -1,7 +1,7 @@
-import prodImg from "../../../src/assets/images/prod.png";
-import type { productType } from "../../components/home/cart/cart-container";
+import prodImg from "../../assets/images/prod.png";
+import type { ProductType } from "../../types/types";
 
-export const productsData: productType[] = [
+export const productsData: ProductType[] = [
 	{
 		id: 1,
 		image: prodImg,
